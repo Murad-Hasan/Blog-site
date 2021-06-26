@@ -1,11 +1,10 @@
-import logo from './logo.svg';
 import './App.css';
-
+import TopBar from './shared/TopBar/TopBar';
 function App() {
   return (
-    <div>
-      <h2>Hallo Tailwind css</h2>
-    </div>
+    <>
+     <TopBar/>
+    </>
   );
 }
 
